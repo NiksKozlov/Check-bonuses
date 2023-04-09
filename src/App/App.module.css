@@ -1,0 +1,53 @@
+.first_block {
+    margin: 56px 25px 76px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_block {
+    height: 148px;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(180deg, #D2333E 0%, #F54B55 100%);
+}
+
+.button_info {
+    border: none;
+    height: 24px;
+    width: 24px;
+    background: white;
+}
+
+.cansel_button {
+    composes: button_info;
+    height: 35px;
+    width: 35px;
+}
+
+.cansel_button:hover {
+    cursor: pointer;
+}
+
+.button_info:hover {
+    cursor: pointer;
+}
+
+.bonuses_quantity {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.bonuses_to_burn {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #979797;
+    margin: 12px 40px 0 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
